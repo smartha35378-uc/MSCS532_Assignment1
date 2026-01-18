@@ -8,7 +8,7 @@ This repository contains an implementation of the Insertion Sort algorithm (desc
 
 **Description**
 
-The provided script demonstrates the insertion sort algorithm applied to an array of numbers, producing a sorted sequence in descending order. Insertion sort builds the final sorted array one item at a time and is efficient for small or nearly-sorted datasets.
+The provided script demonstrates the insertion sort algorithm applied to an array of numbers, producing a sorted sequence in descending order. Insertion sort builds the final sorted array one item at a time and is efficient for small or nearly-sorted datasets. The user can input any array with commas or spaces, and get a sorted array in descending order as output.
 
 **Usage**
 
