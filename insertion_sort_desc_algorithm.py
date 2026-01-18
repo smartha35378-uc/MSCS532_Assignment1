@@ -1,5 +1,5 @@
 def insertion_sort_desc(arr):
-    # This Algorithm 3 4Sorts arr in monotonically decreasing order
+    # This Algorithm Sorts arr in monotonically decreasing order
     for j in range(1, len(arr)):
         key = arr[j]
         i = j - 1
