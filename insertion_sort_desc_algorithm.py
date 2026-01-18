@@ -13,9 +13,12 @@ def insertion_sort_desc(arr):
 
 
 if __name__ == "__main__":
-    user_input = input("Enter numbers separated by spaces: ")
-    data = list(map(int, user_input.split()))
+    user_input = input("Enter numbers separated by spaces or commas: ")
+    data = list(map(int, user_input.replace(",", " ").split()))
 
-    print("Original Array:", data)
+    print("Original:", data)
     insertion_sort_desc(data)
-    print("Sorted Array(decreasing):", data)
+    print("Sorted (decreasing):", data)
+
+
+
